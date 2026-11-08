@@ -1,0 +1,576 @@
+[08Nov2026 01:00:49.728] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.28, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[08Nov2026 01:00:49.732] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.20.1 by Ubuntu; OS Linux arch amd64 version 6.8.0-1064-azure
+[08Nov2026 01:00:57.404] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[08Nov2026 01:00:57.571] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/FactorialExperiment9/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[08Nov2026 01:00:58.378] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/FactorialExperiment9/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.28/fmlcore-1.20.1-47.4.28.jar is missing mods.toml file
+[08Nov2026 01:00:58.380] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/FactorialExperiment9/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.28/javafmllanguage-1.20.1-47.4.28.jar is missing mods.toml file
+[08Nov2026 01:00:58.382] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/FactorialExperiment9/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.28/lowcodelanguage-1.20.1-47.4.28.jar is missing mods.toml file
+[08Nov2026 01:00:58.383] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/FactorialExperiment9/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.28/mclanguage-1.20.1-47.4.28.jar is missing mods.toml file
+[08Nov2026 01:00:58.999] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: resourcefullib. Using Mod File: /workspaces/FactorialExperiment9/servidor_minecraft/mods/resourcefullib-forge-1.20.1-2.1.29.jar
+[08Nov2026 01:00:59.000] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 14 dependencies adding them to mods collection
+[08Nov2026 01:01:02.201] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[08Nov2026 01:01:02.309] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[08Nov2026 01:01:02.605] [main/WARN] [mixin/]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[08Nov2026 01:01:02.626] [main/WARN] [mixin/]: Reference map 'handcrafted-forge-1.20.1-forge-refmap.json' for handcrafted.mixins.json could not be read. If this is a development environment you can ignore this message
+[08Nov2026 01:01:02.670] [main/WARN] [mixin/]: Reference map 'justhammers-common-refmap.json' for justhammers-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[08Nov2026 01:01:02.751] [main/INFO] [Puzzles Lib/]: Loading 49 mods:
+	- ae2 15.4.12
+	- alexsmobs 1.22.9
+	- amendments 1.20-2.2.6
+	- architectury 9.2.14
+	- automobility 0.4.2+1.20.1-forge
+	- balm 7.3.44
+		\-- kuma_api 20.1.12
+	- born_in_chaos_v1 1.7.5
+	- carryon 2.1.2.7
+	- citadel 2.6.3
+	- cloth_config 11.1.136
+	- corpse 1.20.1-1.0.23
+	- creativecore 2.12.40
+	- creeperoverhaul 3.0.2
+	- cristellib 1.1.6
+	- crystalcraft_unlimited_java 1.0.0
+	- effortlessbuilding 3.11
+		|-- flywheel 1.0.6-beta-266
+		\-- ponder 1.0.91
+	- endermanoverhaul 1.0.4
+	- farmersdelight 1.20.1-1.3.4
+	- forge 47.4.28
+	- framework 0.8.0
+	- geckolib 4.8.4
+	- guideme 20.1.15
+	- handcrafted 3.0.6
+	- iceandfire 2.1.13-1.20.1
+	- jei 15.74.0.234
+		\-- mezz_config 0.6.10
+	- justhammers 2.0.3+mc1.20.1
+	- mca 7.7.1-beta.5+1.20.1
+	- mcwbridges 3.1.2
+	- mcwfences 1.2.1
+	- minecraft 1.20.1
+	- moonlight 1.20-2.16.38B
+		\-- mixinsquared 0.1.1
+	- mutantmonsters 8.0.8
+	- onlyexcavators 1.20.1-1.0.1
+	- puzzleslib 8.1.36
+		\-- puzzlesaccessapi 20.1.1
+	- refurbished_furniture 1.0.20
+	- resourcefulconfig 2.1.3
+	- resourcefullib 2.1.29
+	- structory 1.3.5
+	- supplementaries 1.20-3.1.44
+	- t_and_t 0.0NONE
+	- terralith 2.5.4
+	- trmt 0.5.1b-1.20.1-forge
+	- waystones 14.1.21
+[08Nov2026 01:01:02.772] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[08Nov2026 01:01:05.251] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
+[08Nov2026 01:01:12.903] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zll000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[08Nov2026 01:01:15.073] [modloading-worker-0/INFO] [milkucha.trmt.TRMTConfig/]: [TRMT] Config loaded from /workspaces/FactorialExperiment9/servidor_minecraft/config/trmt.json
+[08Nov2026 01:01:15.077] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mutantmonsters:main
+[08Nov2026 01:01:15.509] [modloading-worker-0/INFO] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Registering config for waystones:common (COMMON) with 46 properties.
+[08Nov2026 01:01:15.845] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.28, for MC 1.20.1 with MCP 20230612.114412
+[08Nov2026 01:01:15.845] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.28 Initialized
+[08Nov2026 01:01:17.698] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[08Nov2026 01:01:17.751] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[08Nov2026 01:01:24.160] [main/INFO] [Moonlight/]: Initialized block sets in 16ms
+[08Nov2026 01:01:24.495] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
+[08Nov2026 01:01:24.514] [main/INFO] [Puzzles Lib/]: Loading common config for mutantmonsters
+[08Nov2026 01:01:24.515] [Thread-2/INFO] [Puzzles Lib/]: Reloading common config for mutantmonsters
+[08Nov2026 01:01:24.515] [Thread-2/INFO] [Puzzles Lib/]: Reloading common config for mutantmonsters
+[08Nov2026 01:01:24.977] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mutantmonsters] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/mutantmonsters.json
+[08Nov2026 01:01:24.986] [main/INFO] [Supplementaries/]: Finished mod setup in: [0, 2, 0, 0, 0, 0, 16, 5] ms
+[08Nov2026 01:01:25.064] [main/INFO] [Moonlight/]: Initialized color sets in 66ms
+[08Nov2026 01:01:25.104] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mutantmonsters] Found status: UP_TO_DATE Current: 8.0.8 Target: null
+[08Nov2026 01:01:25.104] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[08Nov2026 01:01:25.120] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 20.1.1 Target: null
+[08Nov2026 01:01:25.120] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[08Nov2026 01:01:25.171] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[08Nov2026 01:01:25.382] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.28 Target: null
+[08Nov2026 01:01:25.382] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://api.modrinth.com/updates/supplementaries/forge_updates.json
+[08Nov2026 01:01:25.557] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: OUTDATED Current: 1.20-3.1.44 Target: 1.20-3.1.44-forge
+[08Nov2026 01:01:25.558] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[08Nov2026 01:01:26.233] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.20.1-1.0.23 Target: null
+[08Nov2026 01:01:26.235] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
+[08Nov2026 01:01:26.254] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Found status: AHEAD Current: 3.1.2 Target: null
+[08Nov2026 01:01:26.255] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfences] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/fences.json
+[08Nov2026 01:01:26.267] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfences] Found status: UP_TO_DATE Current: 1.2.1 Target: null
+[08Nov2026 01:01:26.267] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[08Nov2026 01:01:26.290] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.36 Target: null
+[08Nov2026 01:01:29.341] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[08Nov2026 01:01:32.462] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/FactorialExperiment9/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23183!/assets/.mcassetsroot' uses unexpected schema
+[08Nov2026 01:01:32.462] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/FactorialExperiment9/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23183!/data/.mcassetsroot' uses unexpected schema
+[08Nov2026 01:01:32.605] [main/INFO] [Moonlight/]: Starting runtime resource generation for pack type SERVER_DATA with generators from mods [supplementaries]: [net.mehvahdjukaar.supplementaries.dynamicpack.ServerDynamicResourcesGenerator@44e7ab3e]
+[08Nov2026 01:01:32.606] [main/INFO] [Moonlight/]: Generating runtime assets for pack Supplementaries Generated Pack (supplementaries)
+[08Nov2026 01:01:32.653] [main/INFO] [Supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 46 ms (multithreaded)
+[08Nov2026 01:01:32.654] [main/INFO] [Moonlight/]: Finished runtime resources generation for 1 packs in a total of 48 ms
+[08Nov2026 01:01:34.482] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.TestPlots for plots
+[08Nov2026 01:01:34.486] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
+[08Nov2026 01:01:34.486] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.CraftingTerminalTestPlots for plots
+[08Nov2026 01:01:34.487] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
+[08Nov2026 01:01:34.495] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.P2PTestPlots for plots
+[08Nov2026 01:01:34.496] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
+[08Nov2026 01:01:34.496] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
+[08Nov2026 01:01:34.496] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
+[08Nov2026 01:01:34.497] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
+[08Nov2026 01:01:34.498] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
+[08Nov2026 01:01:34.498] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.QnbTestPlots for plots
+[08Nov2026 01:01:34.498] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.GuidebookPlot for plots
+[08Nov2026 01:01:34.498] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SubnetPlots for plots
+[08Nov2026 01:01:34.499] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ChannelTests for plots
+[08Nov2026 01:01:34.499] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
+[08Nov2026 01:01:34.525] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[08Nov2026 01:01:34.574] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: forge:tags/blocks/new ores/wernerite.json, ignoring
+[08Nov2026 01:01:34.575] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: forge:tags/blocks/new ores/shattuckite.json, ignoring
+[08Nov2026 01:01:34.575] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: forge:tags/blocks/new ores/rhodochrosite.json, ignoring
+[08Nov2026 01:01:34.575] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: forge:tags/blocks/new ores/rainbowfluorite.json, ignoring
+[08Nov2026 01:01:34.576] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: forge:tags/blocks/new ores/mystictopaz.json, ignoring
+[08Nov2026 01:01:34.576] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: forge:tags/blocks/new ores/mossagate.json, ignoring
+[08Nov2026 01:01:34.577] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: forge:tags/blocks/new ores/epidote.json, ignoring
+[08Nov2026 01:01:34.577] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: forge:tags/blocks/new ores/chevronamethyst.json, ignoring
+[08Nov2026 01:01:34.578] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: forge:tags/blocks/new ores/bluejohnfluorite.json, ignoring
+[08Nov2026 01:01:34.578] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: forge:tags/blocks/new ores/bicolortourmaline.json, ignoring
+[08Nov2026 01:01:34.579] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: forge:tags/blocks/new ores/aquamorganite.json, ignoring
+[08Nov2026 01:01:34.634] [Worker-Main-3/ERROR] [net.minecraft.Util/]: Invalid path in pack: forge:tags/items/new ores/ingots/gamma.json, ignoring
+[08Nov2026 01:01:34.634] [Worker-Main-3/ERROR] [net.minecraft.Util/]: Invalid path in pack: forge:tags/items/new ores/gems/wernerite.json, ignoring
+[08Nov2026 01:01:34.634] [Worker-Main-3/ERROR] [net.minecraft.Util/]: Invalid path in pack: forge:tags/items/new ores/gems/shattuckite.json, ignoring
+[08Nov2026 01:01:34.635] [Worker-Main-3/ERROR] [net.minecraft.Util/]: Invalid path in pack: forge:tags/items/new ores/gems/rhodochrosite.json, ignoring
+[08Nov2026 01:01:34.635] [Worker-Main-3/ERROR] [net.minecraft.Util/]: Invalid path in pack: forge:tags/items/new ores/gems/rainbowfluorite.json, ignoring
+[08Nov2026 01:01:34.635] [Worker-Main-3/ERROR] [net.minecraft.Util/]: Invalid path in pack: forge:tags/items/new ores/gems/mystictopaz.json, ignoring
+[08Nov2026 01:01:34.635] [Worker-Main-3/ERROR] [net.minecraft.Util/]: Invalid path in pack: forge:tags/items/new ores/gems/mossagate.json, ignoring
+[08Nov2026 01:01:34.635] [Worker-Main-3/ERROR] [net.minecraft.Util/]: Invalid path in pack: forge:tags/items/new ores/gems/epidote.json, ignoring
+[08Nov2026 01:01:34.635] [Worker-Main-3/ERROR] [net.minecraft.Util/]: Invalid path in pack: forge:tags/items/new ores/gems/chevronamethyst.json, ignoring
+[08Nov2026 01:01:34.636] [Worker-Main-3/ERROR] [net.minecraft.Util/]: Invalid path in pack: forge:tags/items/new ores/gems/bluejohnfluorite.json, ignoring
+[08Nov2026 01:01:34.636] [Worker-Main-3/ERROR] [net.minecraft.Util/]: Invalid path in pack: forge:tags/items/new ores/gems/bicolortourmaline.json, ignoring
+[08Nov2026 01:01:34.636] [Worker-Main-3/ERROR] [net.minecraft.Util/]: Invalid path in pack: forge:tags/items/new ores/gems/aquamorganite.json, ignoring
+[08Nov2026 01:01:36.119] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
+[08Nov2026 01:01:36.216] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
+[08Nov2026 01:01:36.338] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe crystalcraft_unlimited_java:withered_steel_recipe
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.28.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.28.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.28.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[08Nov2026 01:01:36.580] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
+[08Nov2026 01:01:36.648] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 25 recipes
+[08Nov2026 01:01:36.853] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4133 advancements
+[08Nov2026 01:01:37.024] [main/INFO] [Supplementaries/]: Loaded 27 flute songs
+[08Nov2026 01:01:39.762] [main/INFO] [Moonlight/]: Applied 18 data villager trades
+[08Nov2026 01:01:39.860] [main/INFO] [Supplementaries/]: Finished additional setup in 0 ms
+[08Nov2026 01:01:40.135] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[08Nov2026 01:01:40.136] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[08Nov2026 01:01:40.137] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[08Nov2026 01:01:40.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[08Nov2026 01:01:40.240] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[08Nov2026 01:01:40.267] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[08Nov2026 01:01:40.358] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08Nov2026 01:01:40.359] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[08Nov2026 01:01:40.359] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08Nov2026 01:01:40.359] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[08Nov2026 01:01:40.380] [Server thread/INFO] [Puzzles Lib/]: Loading server config for mutantmonsters
+[08Nov2026 01:01:40.715] [Server thread/INFO] [Framework/]: Loading server configs...
+[08Nov2026 01:01:40.726] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[08Nov2026 01:01:43.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[08Nov2026 01:01:45.380] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Nov2026 01:01:45.412] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Nov2026 01:01:45.429] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Nov2026 01:01:45.432] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Nov2026 01:01:45.872] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Nov2026 01:01:46.371] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Nov2026 01:01:46.960] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Nov2026 01:01:47.959] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Nov2026 01:01:47.961] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Nov2026 01:01:49.462] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Nov2026 01:01:49.463] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Nov2026 01:01:49.464] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Nov2026 01:01:49.852] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Nov2026 01:01:50.424] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Nov2026 01:01:51.072] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[08Nov2026 01:01:52.272] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[08Nov2026 01:01:52.274] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[08Nov2026 01:01:52.379] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[08Nov2026 01:01:52.843] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 50%
+[08Nov2026 01:01:53.333] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9491 ms
+[08Nov2026 01:01:53.334] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (12.963s)! For help, type "help"
+[08Nov2026 01:01:53.487] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[08Nov2026 01:01:53.534] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[08Nov2026 01:01:53.535] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[08Nov2026 01:01:53.637] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[08Nov2026 01:02:05.367] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Le000D4nger[/127.134.155.250:33969] logged in with entity id 205 at (-10.828314675152841, 60.0, -0.5824961546768697)
+[08Nov2026 01:02:05.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Le000D4nger joined the game
+[08Nov2026 01:05:19.627] [Netty Epoll Server IO #4/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [mca:main] rejected their client side version number
+[08Nov2026 01:05:19.628] [Netty Epoll Server IO #4/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[08Nov2026 01:05:19.664] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2df19881[id=<null>,name=Diegojg,properties={},legacy=false] (/127.8.210.143:52681) lost connection: Connection closed - mismatched mod channel list
+[08Nov2026 01:05:24.318] [Netty Epoll Server IO #5/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [mca:main] rejected their client side version number
+[08Nov2026 01:05:24.318] [Netty Epoll Server IO #5/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[08Nov2026 01:05:24.353] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@30790ddb[id=<null>,name=Diegojg,properties={},legacy=false] (/127.8.210.143:46577) lost connection: Connection closed - mismatched mod channel list
+[08Nov2026 01:05:34.418] [Netty Epoll Server IO #7/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [mca:main] rejected their client side version number
+[08Nov2026 01:05:34.418] [Netty Epoll Server IO #7/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[08Nov2026 01:05:34.452] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@58fc11b7[id=<null>,name=Diegojg,properties={},legacy=false] (/127.8.210.143:44983) lost connection: Connection closed - mismatched mod channel list
+[08Nov2026 01:05:41.869] [Netty Epoll Server IO #0/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [mca:main] rejected their client side version number
+[08Nov2026 01:05:41.869] [Netty Epoll Server IO #0/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[08Nov2026 01:05:41.903] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@dd09190[id=<null>,name=Diegojg,properties={},legacy=false] (/127.8.210.143:53271) lost connection: Connection closed - mismatched mod channel list
+[08Nov2026 01:11:07.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Le000D4nger has made the advancement [Sweet Dreams]
+[08Nov2026 01:15:04.759] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Diegojg[/127.8.210.143:54461] logged in with entity id 2529 at (-6.5, 68.0, 10.5)
+[08Nov2026 01:15:04.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg joined the game
+[08Nov2026 01:15:05.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg has made the advancement [Crystalcraft Unlimited]
+[08Nov2026 01:15:05.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg has made the advancement [Ice and Fire]
+[08Nov2026 01:16:55.605] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Le000D4nger lost connection: Disconnected
+[08Nov2026 01:16:55.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Le000D4nger left the game
+[08Nov2026 01:17:22.287] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Le000D4nger[/127.134.155.250:60437] logged in with entity id 2885 at (-7.923306077965418, 60.0, -1.7013447235968486)
+[08Nov2026 01:17:22.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Le000D4nger joined the game
+[08Nov2026 01:21:04.156] [Worker-Main-9/INFO] [citadel/]: vanilla surface rule behavior unchanged
+[08Nov2026 01:21:07.327] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5031ms or 100 ticks behind
+[08Nov2026 01:21:18.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> ke wea
+[08Nov2026 01:22:10.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> sopa te van a culear
+[08Nov2026 01:23:23.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[08Nov2026 01:23:23.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: leo<--[HERE]
+[08Nov2026 01:23:30.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg has made the advancement [Sneak 100]
+[08Nov2026 01:23:35.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] Leo tirate tus coordenadas para teletransportar a sopa
+[08Nov2026 01:23:44.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] apura antes de que le metan el maso
+[08Nov2026 01:23:55.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> -3, 65, -3
+[08Nov2026 01:23:56.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> como se veia esa wea
+[08Nov2026 01:24:07.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg has made the advancement [Alex's Mobs]
+[08Nov2026 01:24:15.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Incorrect argument for command
+[08Nov2026 01:24:15.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...p Diegojg -3, 65, -3<--[HERE]
+[08Nov2026 01:24:17.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> jenis mod
+[08Nov2026 01:24:25.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported Diegojg to 3.500000, 65.000000, -2.500000
+[08Nov2026 01:24:28.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[08Nov2026 01:24:28.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: listo<--[HERE]
+[08Nov2026 01:24:31.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> ke wea
+[08Nov2026 01:24:33.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg suffocated in a wall
+[08Nov2026 01:24:34.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] listo sopa tai vio o no pa la wea
+[08Nov2026 01:24:34.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> aaaaaa-
+[08Nov2026 01:24:44.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> k wea paso
+[08Nov2026 01:25:04.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> toy encerrao loko
+[08Nov2026 01:25:07.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> k wea XDDDDDD
+[08Nov2026 01:25:20.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> soy un mono en laboratorio csm
+[08Nov2026 01:25:32.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> jsjsjs q mrd
+[08Nov2026 01:26:10.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> almo tengo mieo wn
+[08Nov2026 01:26:38.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> ma encima no tengo ninguna wea
+[08Nov2026 01:31:21.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> tengo mieo xuxetumare
+[08Nov2026 01:31:35.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg has made the advancement [Cover Me with Diamonds]
+[08Nov2026 01:31:49.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> cagaste sopa
+[08Nov2026 01:31:55.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Le000D4nger has made the advancement [Acquire Hardware]
+[08Nov2026 01:32:15.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> como salgo de aca leo wn
+[08Nov2026 01:32:21.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> no tengo ninguna herramienta qla
+[08Nov2026 01:32:29.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> coordenadas wons
+[08Nov2026 01:32:30.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> y si camino el csm me escucha
+[08Nov2026 01:32:38.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> como chucha veo esa wea
+[08Nov2026 01:32:49.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> oe bajo el minipap
+[08Nov2026 01:33:01.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> aa
+[08Nov2026 01:33:09.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> -2400
+[08Nov2026 01:33:13.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> -50
+[08Nov2026 01:33:19.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> -4547
+[08Nov2026 01:33:32.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> jsjs tai a la recontramierda de aqui
+[08Nov2026 01:34:57.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> aldea sopa
+[08Nov2026 01:35:01.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> te salvare
+[08Nov2026 01:35:09.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> csm wn
+[08Nov2026 01:35:12.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> hay un cofre
+[08Nov2026 01:35:15.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> si lo abro
+[08Nov2026 01:35:18.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> me van a violar
+[08Nov2026 01:35:39.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> ya leo wn
+[08Nov2026 01:35:44.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> recuerdame
+[08Nov2026 01:35:49.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> me voy al encuentro del jb
+[08Nov2026 01:36:22.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> k wea aldeanos qlos
+[08Nov2026 01:36:49.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> xd
+[08Nov2026 01:36:52.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> aparecio el mono qlooo
+[08Nov2026 01:37:34.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> se fue
+[08Nov2026 01:37:39.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> naa mono qlo
+[08Nov2026 01:37:51.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> puro que mete miedo ese
+[08Nov2026 01:37:54.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] sopa q wea si te teletransporte
+[08Nov2026 01:37:56.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> no sabe ni donde esta parao
+[08Nov2026 01:37:59.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported Diegojg to 0.500000, 0.000000, 0.500000
+[08Nov2026 01:38:05.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> ke weaaaa
+[08Nov2026 01:38:06.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg suffocated in a wall
+[08Nov2026 01:38:12.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> oeeeee
+[08Nov2026 01:38:20.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> mandalo aca
+[08Nov2026 01:38:23.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported Diegojg to 1.500000, 5.000000, 3.500000
+[08Nov2026 01:38:24.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> pq me mori
+[08Nov2026 01:38:28.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> 160
+[08Nov2026 01:38:29.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> ooeeeeee
+[08Nov2026 01:38:31.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> 72
+[08Nov2026 01:38:35.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> me estoy muriendo
+[08Nov2026 01:38:35.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> 402
+[08Nov2026 01:38:35.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg suffocated in a wall
+[08Nov2026 01:38:44.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> oe que estan haciendo
+[08Nov2026 01:38:50.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> pta perdi mis weas
+[08Nov2026 01:38:51.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported Diegojg to 160.500000, 73.000000, 402.500000
+[08Nov2026 01:39:09.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> oeeeee
+[08Nov2026 01:39:13.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> pq toy en ka nieve
+[08Nov2026 01:40:31.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> pal otro lao sopa
+[08Nov2026 01:40:41.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> oe
+[08Nov2026 01:40:44.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> respawn
+[08Nov2026 01:40:46.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> aca
+[08Nov2026 01:40:56.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> oe
+[08Nov2026 01:40:59.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> hay respawn aqui
+[08Nov2026 01:42:13.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg has made the advancement [Crops of the Wild]
+[08Nov2026 01:42:29.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Le000D4nger has made the advancement [Not Today, Thank You]
+[08Nov2026 01:43:43.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> oe
+[08Nov2026 01:43:47.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> teni 3 de hierro
+[08Nov2026 01:43:53.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> pa hacerme un piko
+[08Nov2026 01:43:55.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> no wons
+[08Nov2026 01:44:03.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg has made the advancement [Getting an Upgrade]
+[08Nov2026 01:44:06.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> wena
+[08Nov2026 01:45:32.587] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DonPepsi[/127.147.28.128:44885] logged in with entity id 15876 at (-61.64533988676673, 74.0, 49.89146043157571)
+[08Nov2026 01:45:32.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DonPepsi joined the game
+[08Nov2026 01:45:59.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> teni mesa sopa
+[08Nov2026 01:46:03.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> puro sexo aqui a
+[08Nov2026 01:46:16.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> tengo la mea mesa
+[08Nov2026 01:46:30.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> toma un yerro qlo
+[08Nov2026 01:46:35.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> hacete un escuo
+[08Nov2026 01:46:38.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> aqui ta la meas
+[08Nov2026 01:46:40.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> mesa
+[08Nov2026 01:46:41.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> mira la weas que haces
+[08Nov2026 01:46:43.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg has made the advancement [Acquire Hardware]
+[08Nov2026 01:46:46.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> wena
+[08Nov2026 01:46:48.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> asjasjsa
+[08Nov2026 01:47:06.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> toma el pes ma ordinario sopa
+[08Nov2026 01:47:11.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> yiaaaaaaaa
+[08Nov2026 01:47:15.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> oe ven po
+[08Nov2026 01:47:23.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> oe perame deja buscar piedra
+[08Nov2026 01:47:27.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg has made the advancement [Stone Age]
+[08Nov2026 01:47:35.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> teni piedra aca al lao wons
+[08Nov2026 01:47:38.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> sopa qlo
+[08Nov2026 01:47:41.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> oe
+[08Nov2026 01:47:44.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> resdawn
+[08Nov2026 01:47:46.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> cualquier excusa pa arrancarse a la mierda
+[08Nov2026 01:47:51.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> jasjsa
+[08Nov2026 01:47:57.162] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: fofi[/127.147.28.128:55719] logged in with entity id 16685 at (5.5, 68.0, 8.5)
+[08Nov2026 01:47:57.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fofi joined the game
+[08Nov2026 01:47:57.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fofi has made the advancement [Crystalcraft Unlimited]
+[08Nov2026 01:47:57.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fofi has made the advancement [Ice and Fire]
+[08Nov2026 01:48:02.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> primero se come el pollito
+[08Nov2026 01:48:06.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> despues se come la papita
+[08Nov2026 01:48:11.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> pta que rico e
+[08Nov2026 01:48:15.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> vo te comes la polla
+[08Nov2026 01:48:20.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> ia yia
+[08Nov2026 01:48:22.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> oe
+[08Nov2026 01:48:30.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> ke
+[08Nov2026 01:48:31.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> sopa mata won
+[08Nov2026 01:48:47.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> sopa qlo no dejaste nada en el cofre
+[08Nov2026 01:49:06.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg has made the advancement [Not Today, Thank You]
+[08Nov2026 01:49:10.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg has made the advancement [Monster Hunter]
+[08Nov2026 01:50:48.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fofi has made the advancement [Alex's Mobs]
+[08Nov2026 01:50:51.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> oe sopa
+[08Nov2026 01:50:57.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> ke
+[08Nov2026 01:51:03.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> aonde te fuiste malaya
+[08Nov2026 01:51:04.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <fofi> pepsicola salvameee
+[08Nov2026 01:51:09.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> baje
+[08Nov2026 01:51:41.116] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: fofi lost connection: Disconnected
+[08Nov2026 01:51:41.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fofi left the game
+[08Nov2026 01:51:54.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Le000D4nger was slain by Krampus Henchman
+[08Nov2026 01:51:57.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Le000D4nger> toy to lagueao
+[08Nov2026 01:52:19.663] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Le000D4nger lost connection: Disconnected
+[08Nov2026 01:52:19.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Le000D4nger left the game
+[08Nov2026 01:54:15.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg has made the advancement [Isn't It Iron Pick]
+[08Nov2026 01:55:19.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg has made the advancement [Junior Summoner]
+[08Nov2026 01:57:49.035] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Le000D4nger[/127.134.155.250:39809] logged in with entity id 20191 at (-7.5, 60.0, -0.5)
+[08Nov2026 01:57:49.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Le000D4nger joined the game
+[08Nov2026 01:58:19.111] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Le000D4nger lost connection: Timed out
+[08Nov2026 01:58:19.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Le000D4nger left the game
+[08Nov2026 01:58:19.164] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Nov2026 01:58:19.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg has made the advancement [The Wind Darkening]
+[08Nov2026 01:58:46.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> cagas de somvi
+[08Nov2026 01:58:50.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> oe que wea leo
+[08Nov2026 01:59:11.181] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Le000D4nger[/127.134.155.250:44089] logged in with entity id 20565 at (-7.5, 60.0, -0.5)
+[08Nov2026 01:59:11.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Le000D4nger joined the game
+[08Nov2026 01:59:24.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> OSI LEOK SOI
+[08Nov2026 01:59:41.265] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Le000D4nger lost connection: Timed out
+[08Nov2026 01:59:41.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Le000D4nger left the game
+[08Nov2026 02:00:00.835] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Le000D4nger[/127.134.155.250:39655] logged in with entity id 20862 at (-7.5, 60.0, -0.5)
+[08Nov2026 02:00:00.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Le000D4nger joined the game
+[08Nov2026 02:00:36.065] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Le000D4nger lost connection: Disconnected
+[08Nov2026 02:00:36.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Le000D4nger left the game
+[08Nov2026 02:00:44.462] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DonPepsi lost connection: Disconnected
+[08Nov2026 02:00:44.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DonPepsi left the game
+[08Nov2026 02:05:41.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg has made the advancement [Diamonds!]
+[08Nov2026 02:05:46.505] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Le000D4nger[/127.134.155.250:38623] logged in with entity id 21921 at (-7.5, 60.0, -0.5)
+[08Nov2026 02:05:46.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Le000D4nger joined the game
+[08Nov2026 02:06:15.831] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DonPepsi[/127.147.28.128:36971] logged in with entity id 22158 at (-54.82391517497852, 71.0, 33.91255087992272)
+[08Nov2026 02:06:15.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DonPepsi joined the game
+[08Nov2026 02:06:16.536] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Le000D4nger lost connection: Timed out
+[08Nov2026 02:06:16.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Le000D4nger left the game
+[08Nov2026 02:06:16.594] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Nov2026 02:06:54.482] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Le000D4nger[/127.134.155.250:45891] logged in with entity id 22440 at (-7.5, 60.0, -0.5)
+[08Nov2026 02:06:54.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Le000D4nger joined the game
+[08Nov2026 02:07:24.565] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Le000D4nger lost connection: Timed out
+[08Nov2026 02:07:24.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Le000D4nger left the game
+[08Nov2026 02:08:38.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> oe sopa salte pa que se haga de día
+[08Nov2026 02:08:44.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> oe
+[08Nov2026 02:08:52.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> aer
+[08Nov2026 02:08:55.461] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Diegojg lost connection: Disconnected
+[08Nov2026 02:08:55.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg left the game
+[08Nov2026 02:09:38.673] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Diegojg[/127.8.210.143:33179] logged in with entity id 23106 at (214.30000001192093, 11.0, 543.0660115642037)
+[08Nov2026 02:09:38.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg joined the game
+[08Nov2026 02:15:05.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg has completed the challenge [Rose Quartz Or Pink Diamond]
+[08Nov2026 02:19:34.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg has made the advancement [Sweet Dreams]
+[08Nov2026 02:19:37.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> oe almo
+[08Nov2026 02:19:40.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> duermete wn
+[08Nov2026 02:19:41.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> boiw
+[08Nov2026 02:25:18.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> sopa donde tai
+[08Nov2026 02:25:36.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> en una wea de hielo a la mrd
+[08Nov2026 02:25:44.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> estoy en el polo norte
+[08Nov2026 02:25:48.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> como que a la mierda el hielo ta aqui al lado won
+[08Nov2026 02:26:00.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> mira abajo del mapa salen las coordenadas
+[08Nov2026 02:26:12.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> camina hacia 0 68 0
+[08Nov2026 02:26:19.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> ahi pillai la casa altoke
+[08Nov2026 02:26:24.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> ya
+[08Nov2026 02:30:52.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> duermete almo wn
+[08Nov2026 02:31:43.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> almo
+[08Nov2026 02:31:45.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> :(
+[08Nov2026 02:32:30.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> e
+[08Nov2026 02:32:45.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> almo ontai
+[08Nov2026 02:34:01.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> CTM SOPA
+[08Nov2026 02:34:08.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> ARRANCA WEON ANDA EL CACHUDOOOO
+[08Nov2026 02:34:40.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg was slain by Nightmare Stalker
+[08Nov2026 02:34:47.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> CTM SOPAA NOOOOO
+[08Nov2026 02:34:50.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> csm
+[08Nov2026 02:34:52.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> me cague
+[08Nov2026 02:34:53.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> TE COMIO ESA WEAAA
+[08Nov2026 02:35:01.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> oe almo
+[08Nov2026 02:35:05.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> duermete csm
+[08Nov2026 02:35:07.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> YA
+[08Nov2026 02:35:11.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> LISTO
+[08Nov2026 02:35:14.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> ES QUE ESTABA OCUPAO xd
+[08Nov2026 02:35:15.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> XD
+[08Nov2026 02:35:23.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> pta hay wns cerca ahora
+[08Nov2026 02:35:28.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> no pueo dormir
+[08Nov2026 02:35:39.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> ahora so
+[08Nov2026 02:35:42.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> ahora so
+[08Nov2026 02:35:47.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> wena
+[08Nov2026 02:36:06.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> oe ese cachudo qlo feo wn
+[08Nov2026 02:36:28.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> me cague entero la primera vez que lo vi
+[08Nov2026 02:37:40.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> oe
+[08Nov2026 02:38:01.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> mea mansion
+[08Nov2026 02:38:31.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> oe
+[08Nov2026 02:38:33.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> oe almo
+[08Nov2026 02:38:36.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> ontai
+[08Nov2026 02:40:12.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> oe
+[08Nov2026 02:40:20.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> q
+[08Nov2026 02:40:26.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> tai en el hoyo
+[08Nov2026 02:40:36.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> cualo hoyo yiaa
+[08Nov2026 02:40:40.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> jsajsa
+[08Nov2026 02:40:47.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> ese que esta cerca de la granja qla que tienen
+[08Nov2026 02:40:51.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> oe no
+[08Nov2026 02:40:56.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> toy haciendo el palacio de la moneda
+[08Nov2026 02:40:59.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> (mi casa)
+[08Nov2026 02:41:12.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> osea no mi casa
+[08Nov2026 02:41:21.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> a
+[08Nov2026 02:41:36.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> wena
+[08Nov2026 02:41:42.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> wn eri mas enano que yo
+[08Nov2026 02:41:42.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> oe la cague en ser enano wn
+[08Nov2026 02:41:46.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> como mierda es eso XDDDDDD
+[08Nov2026 02:41:47.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> jajsaj
+[08Nov2026 02:41:52.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> ultra enano
+[08Nov2026 02:41:59.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> Leo qlo debe medir 2 metros al lado de nosotros
+[08Nov2026 02:42:04.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> enano ultra mega pro 2.0 plus
+[08Nov2026 02:42:16.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> oe ctm que era eso
+[08Nov2026 02:42:25.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> que wa
+[08Nov2026 02:42:35.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> un wn rompiendo bloques
+[08Nov2026 02:42:37.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> mira ven atras de la cas
+[08Nov2026 02:42:39.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> a
+[08Nov2026 02:42:40.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> oe
+[08Nov2026 02:42:47.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> ooo
+[08Nov2026 02:42:50.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> ahi lo vi
+[08Nov2026 02:42:56.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> se desaparece si tai muy cerca
+[08Nov2026 02:42:57.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> ven
+[08Nov2026 02:43:09.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> alla ta
+[08Nov2026 02:43:11.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> oo ta ala
+[08Nov2026 02:43:50.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> oe
+[08Nov2026 02:43:56.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> aer pegale ahi donde esta
+[08Nov2026 02:44:33.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> mira el maricon
+[08Nov2026 02:44:51.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DonPepsi was slain by Corpse Fly
+[08Nov2026 02:45:24.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> ke wea esas moscas
+[08Nov2026 02:45:39.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> oe
+[08Nov2026 02:45:40.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> son
+[08Nov2026 02:45:43.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> moscas de cadaver
+[08Nov2026 02:45:47.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> cuando comes mierda
+[08Nov2026 02:45:50.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> de zombi
+[08Nov2026 02:45:57.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> te aparecen por hediondo qlo
+[08Nov2026 02:46:01.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> jasjsa
+[08Nov2026 02:46:31.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> trajiste tu cama qla
+[08Nov2026 02:46:33.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> ponla
+[08Nov2026 02:46:34.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> pa dormir
+[08Nov2026 02:46:35.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> no wn
+[08Nov2026 02:46:43.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> ya salte
+[08Nov2026 02:46:44.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> es que voy a volver a la wea
+[08Nov2026 02:46:47.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> oe
+[08Nov2026 02:46:48.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> asjasj
+[08Nov2026 02:46:50.603] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Diegojg lost connection: Disconnected
+[08Nov2026 02:46:50.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg left the game
+[08Nov2026 02:47:19.672] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Diegojg[/127.8.210.143:37733] logged in with entity id 37788 at (-10.132188133666508, 60.0, -1.638249328614344)
+[08Nov2026 02:47:19.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg joined the game
+[08Nov2026 02:49:08.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> oe
+[08Nov2026 02:49:10.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> almo wn
+[08Nov2026 02:49:10.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> oe ke
+[08Nov2026 02:49:15.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> pq hay personas aca wn
+[08Nov2026 02:49:20.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> donde wn
+[08Nov2026 02:49:23.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> es del mod del sex
+[08Nov2026 02:49:28.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> ahi podi conquistar a tu minurria
+[08Nov2026 02:49:30.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> y tener hijo
+[08Nov2026 02:49:34.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> manda coordenadas
+[08Nov2026 02:50:12.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Diegojg> chaaa
+[08Nov2026 02:50:50.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> coordenadas po sopa
+[08Nov2026 02:54:36.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DonPepsi> qe wea hay puras mujeres wn
+[08Nov2026 02:54:46.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg has made the advancement [Suit Up]
+[08Nov2026 02:59:43.957] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DonPepsi lost connection: Disconnected
+[08Nov2026 02:59:43.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DonPepsi left the game
+[08Nov2026 03:01:29.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg has made the advancement [Dark Metallurgy]
+[08Nov2026 03:05:47.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg has made the advancement [Made of Love]
+[08Nov2026 03:34:07.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg has made the advancement [Green Redstone?]
+[08Nov2026 03:47:39.155] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Diegojg lost connection: Disconnected
+[08Nov2026 03:47:39.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Diegojg left the game
+[08Nov2026 04:04:05.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[08Nov2026 04:04:05.414] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer/]: Caught previously unhandled exception :
+java.io.IOError: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
+	at org.jline.terminal.impl.AbstractPosixTerminal.getAttributes(AbstractPosixTerminal.java:46) ~[jline-terminal-3.12.1.jar%2364!/:?]
+	at org.jline.terminal.impl.AbstractTerminal.enterRawMode(AbstractTerminal.java:117) ~[jline-terminal-3.12.1.jar%2364!/:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:538) ~[jline-reader-3.12.1.jar%2363!/:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418) ~[jline-reader-3.12.1.jar%2363!/:?]
+	at net.minecraftforge.server.console.TerminalHandler.handleCommands(TerminalHandler.java:46) ~[forge-1.20.1-47.4.28-universal.jar%23188!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+Caused by: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
+	at org.jline.utils.ExecHelper.exec(ExecHelper.java:42) ~[jline-terminal-3.12.1.jar%2364!/:?]
+	at org.jline.terminal.impl.ExecPty.doGetConfig(ExecPty.java:175) ~[jline-terminal-3.12.1.jar%2364!/:?]
+	at org.jline.terminal.impl.ExecPty.getAttr(ExecPty.java:87) ~[jline-terminal-3.12.1.jar%2364!/:?]
+	at org.jline.terminal.impl.AbstractPosixTerminal.getAttributes(AbstractPosixTerminal.java:44) ~[jline-terminal-3.12.1.jar%2364!/:?]
+	... 5 more
+[08Nov2026 04:04:05.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[08Nov2026 04:04:05.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[08Nov2026 04:04:05.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[08Nov2026 04:04:05.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08Nov2026 04:04:06.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[08Nov2026 04:04:06.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[08Nov2026 04:04:06.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ae2:spatial_storage
+[08Nov2026 04:04:06.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08Nov2026 04:04:06.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08Nov2026 04:04:06.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08Nov2026 04:04:06.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[08Nov2026 04:04:06.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08Nov2026 04:04:06.950] [Server thread/INFO] [Framework/]: Unloading server configs...
+[08Nov2026 04:04:06.951] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
+[08Nov2026 04:04:06.955] [Server thread/INFO] [Framework/]: Finished unloading server configs
